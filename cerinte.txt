@@ -1,0 +1,22 @@
+formular
+nume
+prenume
+telefon
+mesaj
+submit
+
+
+map -> avestim SRL (right side)
+
+
+popup / modal
+80vh
+80vw
+min-width: 400px;
+max-width: 1200px;
+
+margin 10vh
+
+margini rgba(0,0,0,.8);
+
+pt imaginile mici cand dai click > full screen  si caruselul pt cele 3 imagini

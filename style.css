@@ -1,0 +1,472 @@
+*{
+    text-decoration: none;
+    cursor: default;
+}
+
+body{
+    margin: 0;
+    background: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button{
+    transition: all .5s;
+}
+
+button:hover{
+    cursor: pointer;
+    color: #adadad !important;
+}
+
+img.logo{
+    margin-left: 57px;
+    margin-bottom: 10px;
+    height: 60px;
+    width: 80px;
+}
+
+img.nav_W{
+    height: 17px;
+    width: 25px;
+    margin-right: -6px;
+}
+
+img.first_part_image{
+    width: 99vw;
+}
+
+img.insta_logo{
+    width: 30px;
+}
+
+nav{
+    height: 136px;
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    width: 99vw;
+}
+
+nav .text{
+    margin-left: 10px;
+    color: #d7d7d7; 
+}
+
+nav .text h1,
+nav .text p{
+    height: 20px;
+    margin: 0;
+    font-weight: 300;
+    line-height: 19px;
+}
+nav .text h1:first-child{
+    letter-spacing: 1px;
+}
+nav .text h1{
+    font-size: 23.5px;
+}
+
+nav #right_nav{
+    margin-right: 30px;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    right: 0;
+    display: inline-flex;
+    align-items: center;
+}
+nav #right_nav a{
+    text-decoration: none;
+    margin: -6px 49px 0;
+    color: white;
+}
+nav #right_nav a:nth-of-type(1),
+nav #right_nav a:nth-of-type(2){
+    margin: -7px 0 0 47px;
+    font-size: 21px;
+
+}
+nav #right_nav img:hover{
+    cursor: pointer;
+}
+nav a{
+    cursor: pointer;
+}
+
+.contact_us button{
+    background-color: #766146;
+    width: 119px;
+    height: 34px;
+    border-style: none;
+    margin: 0 -21px 0 -28px;
+    border-radius: 19px;
+    color: white;
+}
+
+main{
+    margin-top: -150px;
+}
+
+div#inspiring {
+    margin-top: -10px;
+    min-height: 20vh;
+    width: calc(100vw - 59px);
+    padding: 20px;
+    background-color: #756148;
+    text-align: center;
+    color: #f7efd8;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+div#inspiring h1{
+    font-weight: 200;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+div#inspiring p{
+    font-weight: 200;
+}
+
+#projects img{
+    transition: all 1.2s;
+}
+
+div#projects > h1{
+    text-align: center;
+    color: #41270e;
+}
+div#projects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div#projects > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1600px;
+}
+div#projects > div >  img:nth-of-type(1){
+    width: 1600px;
+    height: 600px;
+    margin: 0 auto;
+}
+
+div#projects div  div.small_images{
+    margin-top: 90px;
+}
+
+div#projects div  div.small_images img{
+    width: 790px;
+    height: 600px;
+}
+div#projects div div.small_images img:nth-of-type(1){
+    margin-right: 15px;
+}
+
+div#projects div button{
+    width: fit-content;
+    padding: 10px 30px;
+    color: #e9e9e9;
+    background-color: #756148;
+    border-style: none;
+    border-radius: 20px;
+    margin: 40px;
+}
+
+#lookbook{
+    color: #8d8884;
+    border: 2px solid #8d8884;
+    border-style: none none solid none;
+    font-size: 25px;
+    margin: 60px 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#lookbook h3{
+    margin: 0;
+    font-weight: 200;
+    height: 31px;
+}
+#lookbook h3:hover{
+    color: #4b4b4b;
+    cursor: pointer;
+}
+
+
+footer{
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    width: 70vw;
+    margin: 40px 0 0 15vw;
+    padding-top: 20px;
+    border: 2px solid #8d8884;
+    border-style: solid none none none;
+    height: 10vh;
+
+}
+footer > img{
+    width: 40px;
+}
+
+footer .text{
+    margin-left: 10px;
+    display: inline-flex;
+    flex-direction: column;
+}
+
+footer .text h1,
+footer .text p{
+    height: 10px;
+    margin: 0;
+    font-weight: 300;
+    color: #8d8884;
+}
+
+footer .text h1{
+    font-size: 10px
+}
+
+footer .text img{
+    margin-bottom: -1px;
+    width: 12px;
+    margin-right: -2px;
+}
+
+footer .text p{
+    font-size: 10px;
+    margin-top: 2px;
+}
+
+footer #right_nav{
+    margin-right: 5px;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    right: 0;
+    display: inline-flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+footer #right_nav img{
+    height: 20px;
+    width: 20px;
+    border-radius: 5px;
+    margin: 20px 0 15px 0;
+}
+footer #right_nav img:hover{
+    filter: invert(20%);
+}
+
+footer #right_nav button{
+    background: transparent;
+    margin: 0;
+}
+
+footer #right_nav .contact_us button{
+    border: 1px solid black;
+    border-style: none none solid none;
+    height: fit-content;
+    border-radius: 0;
+    color: #b09a82;
+    padding: 0;
+    font-weight: 900;
+    width: 82px;
+}
+footer #right_nav .contact_us button:hover{
+    color: black !important;
+}
+
+
+#alert{
+    z-index: 3;
+    position: absolute;
+    display: none;
+    top: 10vh;
+    width: 80vw;
+    height: 80vh;
+    min-width: 400px;
+    max-width: 1200px;
+    margin: 0 18vw;
+    background: radial-gradient(transparent 20%, 
+                              #00000083  40%, 
+                              #00000083  70%, 
+                                transparent 90%);
+}
+#alert form{
+    width: 45%;
+    float: left;
+    position: relative;
+}
+#alert form input{
+    width: 50%;
+    height: 3vh;
+    display: block;
+    margin: 3vh 0 0 5vw;
+}
+#alert form textarea{
+    margin: 3vh 0 0 5vw;
+}
+#alert form button{
+    position: absolute;
+    bottom: 10%;
+    right: 0;
+    width: 30%;
+    height: 10%;
+    border-radius: 20px;
+}
+#alert form{
+    background: transparent;
+    width: 50%;
+    height: 100%;
+}
+
+#images_podium{
+    transition: all 0.5s;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 80vw;
+    height:80vh;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    border-width: 10vh 10vw;
+    display: inline-flex;
+    overflow: hidden;
+}
+
+button#button_left{
+    width:5vh;
+}
+
+button#button_right{
+    width:5vh;
+}
+
+button#exit{
+    width: 5vh;
+    height: 5vh;
+    position: absolute;
+    z-index: 3;
+    /* transform: translate(30px, 10px); */
+    top: 0px;
+    right: 0;
+    background: transparent;
+    border-style: none;
+    font-size: 4vh;
+}
+
+.entering{
+    animation: entering .5s ease-in;
+}
+@keyframes entering{
+    0%{opacity:0}
+    100%{opacity:1}
+}
+
+.leaving{
+    animation: leavin .5s ease-in;
+}
+@keyframes leavin{
+    0%{opacity: 1;}
+    100%{opacity: 0;}
+}
+
+#button_left{
+    width: 1vw;
+    height: 2vw;
+    position: absolute;
+    left: 0;
+    top: 50%;
+}
+#button_right{
+    width: 1vw;
+    height: 2vw;
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
+#left,
+#middle,
+#right{
+    width: 100%;
+}
+
+#left{
+    position: absolute;
+    top: 0;
+    left: -100%;
+}
+
+#right{
+    position: absolute;
+    top: 0;
+    right: -100%;
+}
+
+/* set of animations for entering from left*/
+#leftToMiddle{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    animation: leftToMiddle 1s ease-in-out;
+}
+@keyframes leftToMiddle{
+    0%{left: -100%;}
+    100%{left: 0;}
+}
+
+/* set of animation for entering from right */
+#rightToMiddle{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    animation: rightToMiddle 1s ease-in-out;
+}
+@keyframes rightToMiddle{
+    0%{right: -100%;}
+    100%{right: 0;}
+}
+
+/* set of animations for middle image */
+#middleToLeft{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    animation: middleToLeft 1s ease-in-out;
+}
+@keyframes middleToLeft{
+    0%{left: 0%;}
+    100%{left: -100%;}
+}
+
+#middleToRight{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    animation: middleToRight 1s ease-in-out;
+}
+
+@keyframes middleToRight{
+    0%{right: 0%;}
+    100%{right: -100%;}
+}
+
+
+
