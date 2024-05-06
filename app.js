@@ -98,13 +98,13 @@ Podium.id = "images_podium";
 // create button for rolling to left
 const leftButton = document.createElement('button');
 leftButton.id = 'button_left';
-leftButton.innerHTML = '<'
+leftButton.innerHTML = '<';
 Podium.appendChild(leftButton);
 
 // create button for rolling to right
 const rightButton = document.createElement('button');
 rightButton.id = 'button_right';
-rightButton.innerHTML = '>'
+rightButton.innerHTML = '>';
 Podium.appendChild(rightButton);
 
 // create button for exiting the image viewer
